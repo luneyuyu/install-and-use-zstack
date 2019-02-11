@@ -137,11 +137,11 @@ $ bash ZStack-installer-3.2.0.bin -D
 
 ## 第4步 - 访问ZStack企业版
 
-1. 在浏览器输入‘公网IP：端口’进行访问，看到ZStack企业版登录页面:
+1. 在浏览器输入'公网IP：端口'进行访问，看到ZStack企业版登录页面:
 
 ![zstack-login.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-login.png)
 
-2. 输入默认用户名‘admin’和默认密码‘password’，登录成功:
+2. 输入默认用户名'admin'和默认密码'password'，登录成功:
 
 ![zstack-provision.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-provision.png)
 
