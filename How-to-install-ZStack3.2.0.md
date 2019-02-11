@@ -86,19 +86,18 @@ $ bash ZStack-installer-3.2.0.bin -D
 
 1. 在浏览器输入‘公网IP：端口’进行访问，看到ZStack企业版登录页面:
 
-![屏幕快照 2019-01-30 下午7.49.12.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/屏幕快照%202019-01-30%20下午7.49.12.png)
+![didiyun-create.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/didiyun-create.png)
 
 2. 输入默认用户名‘admin’和默认密码‘password’，登录成功:
 
-![屏幕快照 2019-01-30 下午7.49.36.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-30%20%E4%B8%8B%E5%8D%887.49.36.png)
+![zstack-login.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-login.png)
 
 3. 同意用户注册条款即可使用:
 
-![屏幕快照 2019-01-30 下午7.49.53.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-30%20%E4%B8%8B%E5%8D%887.49.53.png)
+![zstack-provision.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-provision.png)
 
 ## 总结
 
-本文介绍了如何用滴滴云在CentOS7.4上安装ZStack企业版3.2.0，在本系列的第二篇[《kubernetes tutorials》](https://github.com/anypm/kubernetes-tutorials-series)中将介绍如何使用ZStack企业版3.2.0，敬请期待吧～
+本文介绍了如何用滴滴云在CentOS7.4上安装ZStack企业版3.2.0，在本系列的第二篇[《如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0（二）》](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/How-to-use-ZStack3.2.0.md)中将介绍ZStack企业版3.2.0的特性和使用步骤，敬请期待吧～
 
 作者:Lune
-
