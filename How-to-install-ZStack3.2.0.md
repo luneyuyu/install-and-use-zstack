@@ -151,6 +151,6 @@ $ bash ZStack-installer-3.2.0.bin -D
 
 ## 总结
 
-本文介绍了如何用滴滴云在CentOS7.4上安装ZStack企业版3.2.0，在本系列的第二篇[《如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0（二）》](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/How-to-use-ZStack3.2.0.md)中将介绍如何安装ZStack企业版3.2.0的工作节点，敬请期待吧～
+本文介绍了如何用滴滴云在CentOS7.4上安装ZStack企业版3.2.0的管理节点，在本系列的第二篇[《如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0（二）》](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/How-to-use-ZStack3.2.0.md)中将介绍如何安装ZStack企业版3.2.0的工作节点，敬请期待吧～
 
 作者:Lune
