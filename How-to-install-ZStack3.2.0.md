@@ -10,7 +10,7 @@ ZStack是下一代开源的云计算IaaS（基础架构即服务）软件。它�
 
 在开始之前，我们需要做以下准备工作:
 
-* 一个滴滴云服务器，推荐配置为：CentOS 7.4，4核CPU 8G内存，250G SSD云盘存储，10Mbps带宽，并启用端口为5000的安全组规则。
+* 登录![滴滴云控制台-创建云服务器](https://app.didiyun.com/#/dc2/add)创建一个滴滴云服务器，推荐配置为：CentOS 7.4，4核CPU 8G内存，250G SSD云盘存储，10Mbps带宽，并启用端口为5000的安全组规则。
 
 ![didiyun-create.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/didiyun-create.png)
 
@@ -137,11 +137,11 @@ $ bash ZStack-installer-3.2.0.bin -D
 
 ## 第4步 - 访问ZStack企业版
 
-1. 在浏览器输入 ‘公网IP：端口’ 进行访问，即可看到ZStack企业版登录页面:
+1. 在浏览器输入 `公网IP：端口` 进行访问，即可看到ZStack企业版登录页面:
 
 ![zstack-login.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-login.png)
 
-2. 输入默认用户名 ‘admin’ 和默认密码 ‘password’，即可登录成功:
+2. 输入默认用户名 `admin` 和默认密码 `password`，即可登录成功:
 
 ![zstack-provision.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-provision.png)
 
