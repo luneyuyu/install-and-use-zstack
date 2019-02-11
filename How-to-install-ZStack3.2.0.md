@@ -12,6 +12,8 @@ ZStack是下一代开源的云计算IaaS（基础架构即服务）软件。它�
 
 * 一个滴滴云服务器，推荐配置为：CentOS 7.4，4核CPU 8G内存，250G SSD云盘存储，10Mbps带宽，并启用端口为5000的安全组规则。
 
+![屏幕快照 2019-01-30 下午5.12.43.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-30%20%E4%B8%8B%E5%8D%885.12.43.png)
+
 ## 第1步 - 下载ZStack3.2.0版本ISO进行升级
 
 1. 切换到root权限:
