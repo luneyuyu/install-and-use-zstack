@@ -50,7 +50,7 @@ $ cd /etc/ssh
 
 ```
 $ vim sshd_config
-# 把“PermitRootLogin no”的“no”改成“yes”后，保存退出
+把“PermitRootLogin no”的“no”改成“yes”后，保存退出
 ```
 
 3. 重启sshd服务
