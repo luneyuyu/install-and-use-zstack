@@ -1,16 +1,14 @@
-# 如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0（一）
+# 如何在滴滴云服务器上进行ZStack企业版3.2.0的单节点搭建
 
 ## 前言
 
-ZStack是下一代开源的云计算IaaS（基础架构即服务）软件。它主要面向未来的智能数据中心，通过提供灵活完善的APIs来管理包括计算、存储和网络在内的数据中心资源。用户可以利用ZStack快速构建自己的智能云数据中心，也可以在稳定的ZStack之上搭建灵活的云应用场景，例如:VDI（虚拟桌面基础架构）、PaaS（平台即服务）、SaaS（软件即服务）等。
-
-本系列文章将介绍，如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0，该版本对libvirt等虚拟化工具进行了重要升级。本篇作为该系列的第一篇，介绍的是如何安装ZStack企业版3.2.0的管理节点。
+ZStack是下一代开源的云计算IaaS（基础架构即服务）软件。它主要面向未来的智能数据中心，通过提供灵活完善的APIs来管理包括计算、存储和网络在内的数据中心资源。用户可以利用ZStack快速构建自己的智能云数据中心，也可以在稳定的ZStack之上搭建灵活的云应用场景，例如：VDI（虚拟桌面基础架构）、PaaS（平台即服务）、SaaS（软件即服务）等。本文将介绍，如何在滴滴云服务器上进行ZStack企业版3.2.0的单节点搭建，该版本对libvirt等虚拟化工具进行了重要升级。
 
 ## 准备
 
 在开始之前，我们需要做以下准备工作:
 
-* 登录[滴滴云控制台-创建云服务器](https://app.didiyun.com/#/dc2/add)创建一个滴滴云服务器，推荐配置为：CentOS 7.4、4核CPU 8G内存、250G SSD云盘存储、10Mbps带宽，并启用端口为5000的安全组规则。
+* 登录[滴滴云控制台](https://app.didiyun.com/#/dc2/add)创建一个云服务器dc2，推荐配置为：CentOS 7.4、4核CPU 8G内存、250G SSD云盘存储、10Mbps带宽，并启用端口为5000的安全组规则。
 
 ![didiyun-create.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/didiyun-create.png)
 
@@ -135,9 +133,9 @@ $ cd /home/dc2-user
 $ bash ZStack-installer-3.2.0.bin -D
 ```
 
-## 第4步 - 访问ZStack企业版
+## 第4步 - 访问ZStack企业版3.2.0
 
-1. 在浏览器输入 `公网IP：端口` 进行访问，即可看到ZStack企业版登录页面:
+1. 在浏览器输入 `公网IP：端口` 进行访问，即可看到ZStack企业版3.2.0登录页面:
 
 ![zstack-login.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-login.png)
 
@@ -148,9 +146,5 @@ $ bash ZStack-installer-3.2.0.bin -D
 3. 同意用户注册条款后，即可使用:
 
 ![zstack-homepage.png](https://github.com/luneyuyu/install-and-use-zstack/blob/master/zstack-homepage.png)
-
-## 总结
-
-本文介绍了如何用滴滴云在CentOS7.4上安装ZStack企业版3.2.0的管理节点，在本系列的第二篇[《如何用滴滴云在CentOS7.4上安装和使用ZStack企业版3.2.0（二）》](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/How-to-use-ZStack3.2.0.md)中将介绍如何安装ZStack企业版3.2.0的工作节点，敬请期待吧～
 
 作者:Lune
