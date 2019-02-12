@@ -137,7 +137,7 @@ $ bash ZStack-installer-3.2.0.bin -D
 
 ## 第4步 - 访问ZStack企业版3.2.0
 
-1. 在浏览器输入 `公网IP：端口` 进行访问，即可看到ZStack企业版3.2.0登录页面:
+1. 在浏览器输入 `公网IP：端口` 进行访问（建议用谷歌浏览器或火狐浏览器），即可看到ZStack企业版3.2.0登录页面:
 
 ![zstack-login.png](https://github.com/luneyuyu/notes-on-learning-zstack/blob/master/zstack-login.png)
 
