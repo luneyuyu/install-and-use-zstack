@@ -1,10 +1,10 @@
-# 如何在滴滴云服务器上进行ZStack企业版3.2.0的单节点搭建
+# 基于滴滴云服务器进行ZStack企业版3.2.0的单节点搭建
 
 ## 前言
 
 ZStack是下一代开源的云计算IaaS（基础架构即服务）软件。它主要面向未来的智能数据中心，通过提供灵活完善的APIs来管理包括计算、存储和网络在内的数据中心资源。用户可以利用ZStack快速构建自己的智能云数据中心，也可以在稳定的ZStack之上搭建灵活的云应用场景，例如：VDI（虚拟桌面基础架构）、PaaS（平台即服务）、SaaS（软件即服务）等。
 
-本文将介绍，如何在滴滴云服务器上进行ZStack企业版3.2.0的单节点搭建，该版本对libvirt等虚拟化工具进行了重要升级。
+本文将介绍，如何基于滴滴云服务器进行ZStack企业版3.2.0的单节点搭建，该版本对libvirt等虚拟化工具进行了重要升级。
 
 ## 准备
 
@@ -148,5 +148,9 @@ $ bash ZStack-installer-3.2.0.bin -D
 3. 同意用户注册条款后，即可使用:
 
 ![zstack-homepage.png](https://github.com/luneyuyu/install-and-use-zstack/blob/master/zstack-homepage.png)
+
+## 结论
+
+现在您已完成ZStack企业版3.2.0的单节点搭建，您可以参考对照[ZStack官网产品手册](https://www.zstack.io/help/product_manuals/)开始使用～
 
 作者:Lune
